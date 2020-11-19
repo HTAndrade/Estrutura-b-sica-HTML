@@ -3,28 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Hugo Andrade</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <img src="htandrade.jpg" alt="Caricatura de Hugo Andrade"> 
-      <h1>Hugo Andrade</h1>
+      <img src="htandrade.jpg" alt="Caricatura de Hugo Andrade" class="photo"> 
+      <h1 id="title">Hugo Andrade</h1>
     </header>
     <section>
       <header>
-        <h2>Posts</h2>
-        <img src="htmlCode1.jpg" alt="Ilustração de dódigo HTML"
+        <h2 class="subtitle">Posts</h2>
       </header>
-      <article>
+      <article class="post">
         <header>
-          <h3>Post #1</h3>
+          <h3 class="post_title">Post #1</h3>
+          <img src="htmlCode1.jpg" alt="Ilustração de dódigo HTML" class="post_image">
         </header>
-        <p>
+        <p class="post_content">
           Lorem ipsum dolor sit amet, <a href="https://www.linkedin.com/in/hugo-andrade-2895aba8/"target="_blank">consectetur adipiscing</a> elit, sed do eiusmod <a href="mailto:hugotsandrade@gmail.com">tempor incididunt</a> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
         </p>
       </article>
     </section>
     <footer>
-      <ol>
+      <ul class="contacts_lists">
         <li>
           <a href="mailto:hugotsandrade@gmail.com">hugotsandrade@gmail.com</a>
         </li>
@@ -34,7 +35,7 @@
         <li>
           <a href="https://github.com/HTAndrade" target="_blank">Guthub</a>
         </li>
-      </ol>
+      </ul>
       <img src="seloNnath.png" alt="Selo nath de qualidade"> 
     </footer>
   </body>
